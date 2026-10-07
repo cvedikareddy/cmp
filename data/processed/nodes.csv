@@ -1,0 +1,73 @@
+node_id,name,sector,state,node_type
+I001,steel_Jamshedpur_1,steel,Jharkhand,industry
+I002,steel_Ballari_2,steel,Karnataka,industry
+I003,steel_Ballari_3,steel,Karnataka,industry
+I004,steel_Angul_4,steel,Odisha,industry
+I005,steel_Ballari_5,steel,Karnataka,industry
+I006,steel_Ballari_6,steel,Karnataka,industry
+I007,thermal_power_Thoothukudi_7,thermal_power,Tamil Nadu,industry
+I008,thermal_power_Bokaro_8,thermal_power,Jharkhand,industry
+I009,thermal_power_Thoothukudi_9,thermal_power,Tamil Nadu,industry
+I010,thermal_power_Rourkela_10,thermal_power,Odisha,industry
+I011,thermal_power_Visakhapatnam_11,thermal_power,Andhra Pradesh,industry
+I012,thermal_power_Angul_12,thermal_power,Odisha,industry
+I013,thermal_power_Nagpur_13,thermal_power,Maharashtra,industry
+I014,cement_Nagpur_14,cement,Maharashtra,industry
+I015,cement_Nagpur_15,cement,Maharashtra,industry
+I016,cement_Nagpur_16,cement,Maharashtra,industry
+I017,cement_Ballari_17,cement,Karnataka,industry
+I018,cement_Rourkela_18,cement,Odisha,industry
+I019,cement_Salem_19,cement,Tamil Nadu,industry
+I020,fertilizer_Chennai_20,fertilizer,Tamil Nadu,industry
+I021,fertilizer_Surat_21,fertilizer,Gujarat,industry
+I022,fertilizer_Surat_22,fertilizer,Gujarat,industry
+I023,chemicals_Thoothukudi_23,chemicals,Tamil Nadu,industry
+I024,chemicals_Mumbai_24,chemicals,Maharashtra,industry
+I025,chemicals_Jamshedpur_25,chemicals,Jharkhand,industry
+I026,chemicals_Thoothukudi_26,chemicals,Tamil Nadu,industry
+I027,chemicals_Chennai_27,chemicals,Tamil Nadu,industry
+I028,textile_Surat_28,textile,Gujarat,industry
+I029,textile_Surat_29,textile,Gujarat,industry
+I030,textile_Tiruppur_30,textile,Tamil Nadu,industry
+I031,textile_Kolhapur_31,textile,Maharashtra,industry
+I032,textile_Kolhapur_32,textile,Maharashtra,industry
+I033,sugar_Krishna_33,sugar,Andhra Pradesh,industry
+I034,sugar_Kolhapur_34,sugar,Maharashtra,industry
+I035,sugar_Mandya_35,sugar,Karnataka,industry
+I036,sugar_Mandya_36,sugar,Karnataka,industry
+I037,sugar_Mandya_37,sugar,Karnataka,industry
+I038,paper_Kolhapur_38,paper,Maharashtra,industry
+I039,paper_Tiruppur_39,paper,Tamil Nadu,industry
+I040,paper_Tiruppur_40,paper,Tamil Nadu,industry
+I041,paper_Kolhapur_41,paper,Maharashtra,industry
+I042,rice_mill_Thanjavur_42,rice_mill,Tamil Nadu,industry
+I043,rice_mill_Tiruppur_43,rice_mill,Tamil Nadu,industry
+I044,rice_mill_Tiruppur_44,rice_mill,Tamil Nadu,industry
+I045,rice_mill_Thanjavur_45,rice_mill,Tamil Nadu,industry
+I046,rice_mill_Mandya_46,rice_mill,Karnataka,industry
+I047,construction_materials_Nagpur_47,construction_materials,Maharashtra,industry
+I048,construction_materials_Pune_48,construction_materials,Maharashtra,industry
+I049,construction_materials_Pune_49,construction_materials,Maharashtra,industry
+I050,construction_materials_Pune_50,construction_materials,Maharashtra,industry
+I051,auto_service_Pune_51,auto_service,Maharashtra,industry
+I052,auto_service_Chennai_52,auto_service,Tamil Nadu,industry
+I053,auto_service_Jamshedpur_53,auto_service,Jharkhand,industry
+I054,oil_recycling_Mumbai_54,oil_recycling,Maharashtra,industry
+I055,oil_recycling_Chennai_55,oil_recycling,Tamil Nadu,industry
+I056,packaging_Pune_56,packaging,Maharashtra,industry
+I057,packaging_Chennai_57,packaging,Tamil Nadu,industry
+I058,packaging_Surat_58,packaging,Gujarat,industry
+I059,plastic_recycling_Mumbai_59,plastic_recycling,Maharashtra,industry
+I060,plastic_recycling_Chennai_60,plastic_recycling,Tamil Nadu,industry
+M01,fly ash,mineral,,material
+M02,blast furnace slag,mineral,,material
+M03,steel slag,mineral,,material
+M04,FGD gypsum,mineral,,material
+M05,rice husk,biomass,,material
+M06,bagasse,biomass,,material
+M07,waste paper,fibre,,material
+M08,spent acid,chemical,,material
+M09,used oil,chemical,,material
+M10,textile sludge,sludge,,material
+M11,plastic scrap,polymer,,material
+M12,mill scale,metal,,material

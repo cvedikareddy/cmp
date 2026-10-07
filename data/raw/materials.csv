@@ -1,0 +1,13 @@
+material_id,name,category,hs_code,hazard_class,moisture_pct,calorific_value,ph,heavy_metals_ppm,physical_state
+M01,fly ash,mineral,2621,non-hazardous,1,1.0,9.0,40,powder
+M02,blast furnace slag,mineral,2618,non-hazardous,5,0.5,11.0,60,solid
+M03,steel slag,mineral,2619,irritant,4,0.5,12.0,120,solid
+M04,FGD gypsum,mineral,2520,non-hazardous,10,0.0,7.0,20,powder
+M05,rice husk,biomass,1213,non-hazardous,12,14.0,6.5,5,solid
+M06,bagasse,biomass,2303,non-hazardous,45,9.0,6.0,3,solid
+M07,waste paper,fibre,4707,non-hazardous,8,13.0,7.0,10,solid
+M08,spent acid,chemical,2807,toxic,70,0.0,1.5,300,liquid
+M09,used oil,chemical,2710,toxic,3,38.0,7.0,250,liquid
+M10,textile sludge,sludge,3825,irritant,75,4.0,8.0,180,sludge
+M11,plastic scrap,polymer,3915,non-hazardous,2,35.0,7.0,30,solid
+M12,mill scale,metal,2619,non-hazardous,3,0.0,7.0,90,solid

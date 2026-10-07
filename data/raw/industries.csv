@@ -1,0 +1,61 @@
+industry_id,name,sector,lat,lon,state,capacity_tpy,role,region,utilization
+I001,steel_Jamshedpur_1,steel,22.6752,86.2901,Jharkhand,2084778,both,East,0.72
+I002,steel_Ballari_2,steel,15.0437,76.4153,Karnataka,1342831,both,South,0.73
+I003,steel_Ballari_3,steel,15.3055,76.4933,Karnataka,1535069,both,South,0.91
+I004,steel_Angul_4,steel,21.0061,84.9969,Odisha,1706642,both,East,0.72
+I005,steel_Ballari_5,steel,15.194,76.3778,Karnataka,1181919,both,South,0.94
+I006,steel_Ballari_6,steel,15.1815,76.3486,Karnataka,1326068,both,South,0.82
+I007,thermal_power_Thoothukudi_7,thermal_power,8.8495,78.2017,Tamil Nadu,8464415,both,South,0.94
+I008,thermal_power_Bokaro_8,thermal_power,23.6085,86.0523,Jharkhand,4962388,both,East,0.75
+I009,thermal_power_Thoothukudi_9,thermal_power,8.6992,78.0511,Tamil Nadu,5022871,both,South,0.81
+I010,thermal_power_Rourkela_10,thermal_power,22.0652,84.4201,Odisha,4338596,both,East,0.8
+I011,thermal_power_Visakhapatnam_11,thermal_power,17.8046,83.2268,Andhra Pradesh,5072907,both,South,0.7
+I012,thermal_power_Angul_12,thermal_power,20.9847,85.1758,Odisha,2401971,both,East,0.9
+I013,thermal_power_Nagpur_13,thermal_power,20.4233,79.167,Maharashtra,6749873,both,West,0.87
+I014,cement_Nagpur_14,cement,20.6162,78.9981,Maharashtra,2223496,consumer,West,0.86
+I015,cement_Nagpur_15,cement,20.5853,79.2952,Maharashtra,2212751,consumer,West,0.81
+I016,cement_Nagpur_16,cement,20.603,79.177,Maharashtra,1599675,consumer,West,0.76
+I017,cement_Ballari_17,cement,15.2597,76.4171,Karnataka,3183434,consumer,South,0.84
+I018,cement_Rourkela_18,cement,22.019,84.5751,Odisha,2243460,consumer,East,0.9
+I019,cement_Salem_19,cement,11.4564,78.4542,Tamil Nadu,1645010,consumer,South,0.82
+I020,fertilizer_Chennai_20,fertilizer,13.1437,80.3015,Tamil Nadu,709947,consumer,South,0.87
+I021,fertilizer_Surat_21,fertilizer,20.7882,72.8492,Gujarat,583490,consumer,West,0.79
+I022,fertilizer_Surat_22,fertilizer,20.6263,72.7413,Gujarat,423220,consumer,West,0.93
+I023,chemicals_Thoothukudi_23,chemicals,8.7546,78.3059,Tamil Nadu,176553,both,South,0.88
+I024,chemicals_Mumbai_24,chemicals,18.988,72.9753,Maharashtra,143424,both,West,0.93
+I025,chemicals_Jamshedpur_25,chemicals,22.5927,86.2521,Jharkhand,217353,both,East,0.74
+I026,chemicals_Thoothukudi_26,chemicals,8.6265,78.1587,Tamil Nadu,166167,both,South,0.81
+I027,chemicals_Chennai_27,chemicals,13.3922,80.2713,Tamil Nadu,139783,both,South,0.8
+I028,textile_Surat_28,textile,20.8264,73.0631,Gujarat,40184,both,West,0.74
+I029,textile_Surat_29,textile,20.6573,72.8232,Gujarat,21690,both,West,0.85
+I030,textile_Tiruppur_30,textile,11.0348,77.4762,Tamil Nadu,27755,both,South,0.94
+I031,textile_Kolhapur_31,textile,16.8376,74.5006,Maharashtra,60343,both,West,0.82
+I032,textile_Kolhapur_32,textile,16.8497,74.2813,Maharashtra,14224,both,West,0.77
+I033,sugar_Krishna_33,sugar,16.7502,80.9265,Andhra Pradesh,475958,producer,South,0.91
+I034,sugar_Kolhapur_34,sugar,16.8188,74.381,Maharashtra,347974,producer,West,0.73
+I035,sugar_Mandya_35,sugar,12.4935,77.1122,Karnataka,523325,producer,South,0.73
+I036,sugar_Mandya_36,sugar,12.4401,76.7578,Karnataka,356672,producer,South,0.84
+I037,sugar_Mandya_37,sugar,12.4014,77.0006,Karnataka,364520,producer,South,0.94
+I038,paper_Kolhapur_38,paper,16.8462,74.3812,Maharashtra,147875,consumer,West,0.93
+I039,paper_Tiruppur_39,paper,11.1454,77.2529,Tamil Nadu,95904,consumer,South,0.92
+I040,paper_Tiruppur_40,paper,11.3895,77.4192,Tamil Nadu,143899,consumer,South,0.83
+I041,paper_Kolhapur_41,paper,16.8263,74.3507,Maharashtra,220927,consumer,West,0.72
+I042,rice_mill_Thanjavur_42,rice_mill,10.9843,79.172,Tamil Nadu,65144,producer,South,0.76
+I043,rice_mill_Tiruppur_43,rice_mill,11.4068,77.3785,Tamil Nadu,87448,producer,South,0.85
+I044,rice_mill_Tiruppur_44,rice_mill,11.0672,77.2926,Tamil Nadu,125252,producer,South,0.94
+I045,rice_mill_Thanjavur_45,rice_mill,10.7804,79.1905,Tamil Nadu,163659,producer,South,0.73
+I046,rice_mill_Mandya_46,rice_mill,12.5773,76.654,Karnataka,98309,producer,South,0.87
+I047,construction_materials_Nagpur_47,construction_materials,20.3946,79.1599,Maharashtra,275581,consumer,West,0.88
+I048,construction_materials_Pune_48,construction_materials,18.7037,73.7419,Maharashtra,178329,consumer,West,0.82
+I049,construction_materials_Pune_49,construction_materials,18.8605,73.7815,Maharashtra,156763,consumer,West,0.71
+I050,construction_materials_Pune_50,construction_materials,18.7291,73.8212,Maharashtra,136835,consumer,West,0.74
+I051,auto_service_Pune_51,auto_service,19.0021,74.0252,Maharashtra,3709,producer,West,0.9
+I052,auto_service_Chennai_52,auto_service,13.0244,80.2291,Tamil Nadu,5583,producer,South,0.73
+I053,auto_service_Jamshedpur_53,auto_service,22.7215,85.9423,Jharkhand,4723,producer,East,0.85
+I054,oil_recycling_Mumbai_54,oil_recycling,19.0365,72.8948,Maharashtra,48377,consumer,West,0.92
+I055,oil_recycling_Chennai_55,oil_recycling,13.4555,80.1455,Tamil Nadu,34060,consumer,South,0.9
+I056,packaging_Pune_56,packaging,19.0486,73.6594,Maharashtra,26372,producer,West,0.74
+I057,packaging_Chennai_57,packaging,13.0816,80.2706,Tamil Nadu,39380,producer,South,0.74
+I058,packaging_Surat_58,packaging,20.7549,72.8839,Gujarat,18540,producer,West,0.71
+I059,plastic_recycling_Mumbai_59,plastic_recycling,19.1279,72.9334,Maharashtra,23588,consumer,West,0.87
+I060,plastic_recycling_Chennai_60,plastic_recycling,13.2187,80.3422,Tamil Nadu,20375,consumer,South,0.92
