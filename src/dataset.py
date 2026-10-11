@@ -1,3 +1,11 @@
+"""Synthetic dataset generator.
+
+All data under data/raw and data/processed is generated here with a fixed seed
+(42). Industries, volumes, prices, routes, regulations and trade labels are
+simulated (only the industrial cluster locations and material names are
+real-world inspired), so model scores reflect the generator's rules, not real
+market behaviour. Run `python src/dataset.py` from the repo root to regenerate.
+"""
 import json
 from pathlib import Path
 import numpy as np

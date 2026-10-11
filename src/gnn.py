@@ -28,7 +28,17 @@ def build_knowledge_graph(nodes_path="data/processed/nodes.csv", edges_path="dat
 
 
 class GraphEmbeddingLinkPredictor:
-    """Lightweight Spectral & Relational GNN / Node Embedding link predictor."""
+    """Lightweight graph-embedding link predictor.
+
+    Implementation notes (read before citing results):
+    - Node embeddings are random vectors smoothed over the normalised adjacency
+      matrix for `num_hops` steps. There are no learned GNN weights; only the
+      logistic-regression head on top is trained.
+    - The graph includes "supplies_to" edges derived from the same transactions
+      that define the training labels, so the evaluation metrics are optimistic
+      (label leakage) and this is not a true zero-shot predictor. For a fair
+      estimate, build the graph from training pairs only.
+    """
     def __init__(self, embedding_dim=32, num_hops=2, random_state=42):
         self.embedding_dim = embedding_dim
         self.num_hops = num_hops

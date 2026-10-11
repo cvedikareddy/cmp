@@ -2,6 +2,11 @@
 
 Extracts environmental constraints, permissible limits, substances, and compliance
 obligations from regulatory text documents (e.g., CPCB/SPCB hazardous waste guidelines).
+
+Implementation note: extraction is rule-based (keyword lists + regular expressions),
+not a trained or fine-tuned NER model, and nothing here crawls documents. The saved
+`models/regulatory_ner.joblib` only stores the rules extracted from
+`data/processed/regulation_text.jsonl`.
 """
 import json
 import re

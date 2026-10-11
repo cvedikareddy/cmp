@@ -3,6 +3,12 @@
 Balances economic yield (INR profit) against environmental impact (CO2 savings)
 and logistical risk (distance/transport). Computes the Pareto frontier of optimal
 industrial symbiosis trading policies under dynamic conditions.
+
+Implementation note: this module does NOT train a reinforcement-learning agent.
+It ranks all candidate pairs with NSGA-II-style fast non-dominated sorting and then
+orders each front by a fixed-weight composite score. The "dynamic conditions"
+(prices, freight, regulations) are not simulated here; re-run the optimizer on
+updated pair features to refresh the ranking.
 """
 import json
 from pathlib import Path
