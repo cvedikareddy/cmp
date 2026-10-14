@@ -10,7 +10,7 @@ import pandas as pd
 
 from src.dataset import MAT, PRODUCE, CONSUME
 from src.recommender import load as load_pairs, recommend
-from src.simulator import Scenario, evaluate
+from src.simulator import load_data, scenario as build_scenario, evaluate
 from src.explain import MatchExplainer
 from src.gnn import load_gnn_model, build_knowledge_graph
 from src.regulatory_ner import RegulatoryEntityExtractor
@@ -35,18 +35,14 @@ def run_pipeline():
     print("\n[2] CIRCULAR ECONOMY PROFITABILITY SIMULATOR")
     print("-" * 50)
     top_match = recs.iloc[0]
-    scenario = Scenario(
-        producer_id=top_match.producer_id,
-        consumer_id=top_match.consumer_id,
-        material_id=top_match.material_id,
-        volume_tpy=15000.0,
-        price=1400.0,
-        virgin_price=2800.0,
-        distance_km=float(top_match.distance_km),
-        freight_rate=4.5,
-        pretreatment_cost=250.0,
-        co2_saving=float(top_match.co2_saving_per_tonne),
-        carbon_price=400.0
+    # Build the scenario from the matched pair's own data (market price, virgin price,
+    # freight rate, pretreatment cost, price ceiling, feasibility) instead of hardcoded values.
+    scenario = build_scenario(
+        load_data("data"),
+        top_match.producer_id,
+        top_match.consumer_id,
+        top_match.material_id,
+        carbon_price=400.0,
     )
     sim_res = evaluate(scenario)
     print(f"Simulation Deal: {scenario.producer_id} -> {scenario.consumer_id} ({scenario.volume_tpy:,.0f} tonnes/year)")
