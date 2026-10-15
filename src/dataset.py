@@ -257,8 +257,8 @@ def validate(raw):
     return True
 
 
-def main(root="data"):
-    raw, proc, txt = build()
+def main(root="data", n_ind=N_IND, seed=SEED):
+    raw, proc, txt = build(seed=seed, n_ind=n_ind)
     validate(raw)
     for d in ("raw", "processed"):
         Path(root, d).mkdir(parents=True, exist_ok=True)
@@ -267,8 +267,15 @@ def main(root="data"):
     with open(Path(root, "processed", "regulation_text.jsonl"), "w") as f:
         f.writelines(json.dumps(t) + "\n" for t in txt)
     pf = proc["pair_features"]
+    print(f"Generated dataset with {n_ind} facilities:")
     print({k: len(v) for k, v in {**raw, **proc}.items()}, "| positives:", int(pf.label.sum()), "/", len(pf))
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description="Generate industrial symbiosis dataset.")
+    parser.add_argument("--n_ind", type=int, default=N_IND, help="Number of facilities to generate (e.g. 150, 300)")
+    parser.add_argument("--seed", type=int, default=SEED, help="Random seed")
+    parser.add_argument("--root", type=str, default="data", help="Target folder")
+    args = parser.parse_args()
+    main(root=args.root, n_ind=args.n_ind, seed=args.seed)
