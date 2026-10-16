@@ -41,7 +41,7 @@ st.set_page_config(
 CUSTOM_CSS = """
 <style>
     /* Clean, modern sans-serif typography across the dashboard */
-    html, body, [class*="css"], .stMarkdown, p, div, span, label, input, select, button {
+    html, body, .stApp, .stMarkdown, p, label, input, select, textarea {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
     }
 
@@ -230,6 +230,22 @@ CUSTOM_CSS = """
         color: #0F2942;
         background: #EFF6FF;
         border-bottom-color: #2563EB;
+    }
+    [data-testid="stTabs"] [data-testid="stIconMaterial"],
+    [data-testid="stTabs"] .material-symbols-rounded {
+        font-family: "Material Symbols Rounded" !important;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.5rem;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        font-feature-settings: "liga";
+        -webkit-font-feature-settings: "liga";
+        -webkit-font-smoothing: antialiased;
     }
     [data-testid="stBaseButton-secondary"], [data-testid="stBaseButton-primary"] {
         border-radius: 8px;
